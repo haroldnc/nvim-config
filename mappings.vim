@@ -71,4 +71,27 @@ tnoremap   <silent>   <F6>    <C-\><C-n>:FloatermKill<CR>
 nnoremap   <silent>   <F12>   :FloatermToggle<CR>
 tnoremap   <silent>   <F12>   <C-\><C-n>:FloatermToggle<CR>
 
-nmap <C-o> :FloatermNew lf<CR>
+nmap <C-o> :FloatermNew xplr<CR>
+
+"============== NERDTree ===============
+nnoremap <leader>a :NERDTreeToggle<CR>
+
+"============== DevIcons ===============
+"let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = 'ƛ'
+"let g:WebDevIconsUnicodeDecorateFolderNodes = 1
+"let g:DevIconsEnableFoldersOpenClose = 1
+"let g:DevIconsEnableFolderPatternMatching = 1
+"let g:DevIconsEnableFolderExtensionPatternMatching = 0
+"let g:DevIconsEnableDistro = 0
+"let g:WebDevIconsUnicodeDecorateFolderNodesExactMatches = 1
+"let g:WebDevIconsUnicodeDecorateFolderNodesDefaultSymbol = 'ƛ'
+"let g:WebDevIconsUnicodeByteOrderMarkerDefaultSymbol = 'ƛ'
+"let g:DevIconsDefaultFolderOpenSymbol = 'ƛ'
+"let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols = {} " needed
+"let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['js'] = 'ƛ'
+"let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols = {} " needed
+"let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['MyReallyCoolFile.okay'] = 'ƛ'
+"let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols = {} " needed
+"let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['myext'] = 'ƛ'
+"let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols = {} " needed
+"let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*jquery.*\.js$'] = 'ƛ'

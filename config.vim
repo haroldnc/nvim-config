@@ -23,6 +23,7 @@ set smartcase  " No ignorar mayúscula si la palabra a buscar contiene mayúscul
 
 set noshowmode " No mostrar el modo en que estamos
 set encoding=utf-8   " Codificar todos los archivos en utf-8
+set guifont=DroidSansMono_Nerd_Font:h11
 
 set spelllang=en,es  " Corregir palabras usando diccionarios en inglés y español
 

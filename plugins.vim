@@ -2,6 +2,7 @@ call plug#begin()
    Plug 'sonph/onehalf', {'rtp': 'vim'}
    Plug 'vim-airline/vim-airline' "barra de estado
    Plug 'vim-airline/vim-airline-themes'
+   Plug 'tpope/vim-fugitive'
    Plug 'ctrlpvim/ctrlp.vim'
    Plug 'hrsh7th/vim-vsnip' "snippets
    Plug 'hrsh7th/vim-vsnip-integ'
@@ -9,4 +10,6 @@ call plug#begin()
    Plug 'ryanoasis/vim-devicons' "devicons
    Plug 'grvcoelho/vim-javascript-snippets' "javascript snippets
    "Plug 'honza/vim-snippets' "snippets para varios lenguajes de programacion
+   Plug 'preservim/nerdtree'
+   Plug 'github/copilot.vim'
 call plug#end()
