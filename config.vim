@@ -31,3 +31,4 @@ set termguicolors " Activa true colors en la terminal
 set background=dark " Fondo del tema: ligth o dark
 colorscheme onehalfdark  " Nombre del tema
 filetype plugin indent on
+set backspace=indent,eol,start  " Elimina el backspace y el enter al inicio de la línea
