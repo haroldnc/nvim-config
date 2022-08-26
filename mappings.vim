@@ -95,3 +95,6 @@ nnoremap <leader>a :NERDTreeToggle<CR>
 "let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['myext'] = 'ƛ'
 "let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols = {} " needed
 "let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*jquery.*\.js$'] = 'ƛ'
+
+"================ Prettier ===============
+"nnoremap <leader>pr :Prettier<CR>

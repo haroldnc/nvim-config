@@ -16,4 +16,5 @@ call plug#begin()
    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
    Plug 'Yggdroot/indentLine'
    Plug 'prettier/vim-prettier', { 'do': 'npm install --frozen-lockfile --production' }
+   Plug 'jbyuki/instant.nvim'
 call plug#end()

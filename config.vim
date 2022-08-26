@@ -9,10 +9,10 @@ set nowrap  " No dividir la línea si es muy larga
 set cursorline " Resalta la línea actual
 set colorcolumn=120  " Muestra la columna límite a 120 caracteres
 
-" Indentación a 3 espacios
-set tabstop=3
-set shiftwidth=3
-set softtabstop=3
+" Indentación a 4 espacios
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set shiftround
 set expandtab  " Insertar espacios en lugar de <Tab>s
 
